@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E900E77D158451E5000D9969 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E900E77C158451E5000D9969 /* Cocoa.framework */; };
+		E900E787158451E5000D9969 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E900E785158451E5000D9969 /* InfoPlist.strings */; };
+		E900E789158451E5000D9969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E788158451E5000D9969 /* main.m */; };
+		E900E78D158451E5000D9969 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E900E78B158451E5000D9969 /* Credits.rtf */; };
+		E900E790158451E5000D9969 /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E78F158451E5000D9969 /* TKAppDelegate.m */; };
+		E900E793158451E5000D9969 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E900E791158451E5000D9969 /* MainMenu.xib */; };
+		E900E79B158451E5000D9969 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E900E79A158451E5000D9969 /* SenTestingKit.framework */; };
+		E900E79C158451E5000D9969 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E900E77C158451E5000D9969 /* Cocoa.framework */; };
+		E900E7A4158451E5000D9969 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E900E7A2158451E5000D9969 /* InfoPlist.strings */; };
+		E900E7A7158451E5000D9969 /* doppelga_ngerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E7A6158451E5000D9969 /* doppelga_ngerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E900E79D158451E5000D9969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E900E76F158451E5000D9969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E900E777158451E5000D9969;
+			remoteInfo = "doppelgänger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E900E778158451E5000D9969 /* doppelgänger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doppelgänger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E900E77C158451E5000D9969 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E900E77F158451E5000D9969 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E900E780158451E5000D9969 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E900E781158451E5000D9969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E900E784158451E5000D9969 /* doppelgänger-Info.plist */ = {isa = PBXFileReference; path = "doppelgänger-Info.plist"; sourceTree = "<group>"; };
+		E900E786158451E5000D9969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E900E788158451E5000D9969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E900E78A158451E5000D9969 /* doppelgänger-Prefix.pch */ = {isa = PBXFileReference; path = "doppelgänger-Prefix.pch"; sourceTree = "<group>"; };
+		E900E78C158451E5000D9969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E900E78E158451E5000D9969 /* TKAppDelegate.h */ = {isa = PBXFileReference; path = TKAppDelegate.h; sourceTree = "<group>"; };
+		E900E78F158451E5000D9969 /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
+		E900E792158451E5000D9969 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E900E799158451E5000D9969 /* doppelgängerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doppelgängerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E900E79A158451E5000D9969 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E900E7A1158451E5000D9969 /* doppelgängerTests-Info.plist */ = {isa = PBXFileReference; path = "doppelgängerTests-Info.plist"; sourceTree = "<group>"; };
+		E900E7A3158451E5000D9969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E900E7A5158451E5000D9969 /* doppelga_ngerTests.h */ = {isa = PBXFileReference; path = doppelga_ngerTests.h; sourceTree = "<group>"; };
+		E900E7A6158451E5000D9969 /* doppelga_ngerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = doppelga_ngerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E900E775158451E5000D9969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E900E77D158451E5000D9969 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E900E795158451E5000D9969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E900E79B158451E5000D9969 /* SenTestingKit.framework in Frameworks */,
+				E900E79C158451E5000D9969 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E900E76D158451E5000D9969 = {
+			isa = PBXGroup;
+			children = (
+				E900E782158451E5000D9969 /* doppelgänger */,
+				E900E79F158451E5000D9969 /* doppelgängerTests */,
+				E900E77B158451E5000D9969 /* Frameworks */,
+				E900E779158451E5000D9969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E900E779158451E5000D9969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E900E778158451E5000D9969 /* doppelgänger.app */,
+				E900E799158451E5000D9969 /* doppelgängerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E900E77B158451E5000D9969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E900E77C158451E5000D9969 /* Cocoa.framework */,
+				E900E79A158451E5000D9969 /* SenTestingKit.framework */,
+				E900E77E158451E5000D9969 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E900E77E158451E5000D9969 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E900E77F158451E5000D9969 /* AppKit.framework */,
+				E900E780158451E5000D9969 /* CoreData.framework */,
+				E900E781158451E5000D9969 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E900E782158451E5000D9969 /* doppelgänger */ = {
+			isa = PBXGroup;
+			children = (
+				E900E78E158451E5000D9969 /* TKAppDelegate.h */,
+				E900E78F158451E5000D9969 /* TKAppDelegate.m */,
+				E900E791158451E5000D9969 /* MainMenu.xib */,
+				E900E783158451E5000D9969 /* Supporting Files */,
+			);
+			path = "doppelgänger";
+			sourceTree = "<group>";
+		};
+		E900E783158451E5000D9969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E900E784158451E5000D9969 /* doppelgänger-Info.plist */,
+				E900E785158451E5000D9969 /* InfoPlist.strings */,
+				E900E788158451E5000D9969 /* main.m */,
+				E900E78A158451E5000D9969 /* doppelgänger-Prefix.pch */,
+				E900E78B158451E5000D9969 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E900E79F158451E5000D9969 /* doppelgängerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E900E7A5158451E5000D9969 /* doppelga_ngerTests.h */,
+				E900E7A6158451E5000D9969 /* doppelga_ngerTests.m */,
+				E900E7A0158451E5000D9969 /* Supporting Files */,
+			);
+			path = "doppelgängerTests";
+			sourceTree = "<group>";
+		};
+		E900E7A0158451E5000D9969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E900E7A1158451E5000D9969 /* doppelgängerTests-Info.plist */,
+				E900E7A2158451E5000D9969 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E900E777158451E5000D9969 /* doppelgänger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E900E7AA158451E5000D9969 /* Build configuration list for PBXNativeTarget "doppelgänger" */;
+			buildPhases = (
+				E900E774158451E5000D9969 /* Sources */,
+				E900E775158451E5000D9969 /* Frameworks */,
+				E900E776158451E5000D9969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "doppelgänger";
+			productName = "doppelgänger";
+			productReference = E900E778158451E5000D9969 /* doppelgänger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E900E798158451E5000D9969 /* doppelgängerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E900E7AD158451E5000D9969 /* Build configuration list for PBXNativeTarget "doppelgängerTests" */;
+			buildPhases = (
+				E900E794158451E5000D9969 /* Sources */,
+				E900E795158451E5000D9969 /* Frameworks */,
+				E900E796158451E5000D9969 /* Resources */,
+				E900E797158451E5000D9969 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E900E79E158451E5000D9969 /* PBXTargetDependency */,
+			);
+			name = "doppelgängerTests";
+			productName = "doppelgängerTests";
+			productReference = E900E799158451E5000D9969 /* doppelgängerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E900E76F158451E5000D9969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TK;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E900E772158451E5000D9969 /* Build configuration list for PBXProject "doppelgänger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E900E76D158451E5000D9969;
+			productRefGroup = E900E779158451E5000D9969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E900E777158451E5000D9969 /* doppelgänger */,
+				E900E798158451E5000D9969 /* doppelgängerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E900E776158451E5000D9969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E900E787158451E5000D9969 /* InfoPlist.strings in Resources */,
+				E900E78D158451E5000D9969 /* Credits.rtf in Resources */,
+				E900E793158451E5000D9969 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E900E796158451E5000D9969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E900E7A4158451E5000D9969 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E900E797158451E5000D9969 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E900E774158451E5000D9969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E900E789158451E5000D9969 /* main.m in Sources */,
+				E900E790158451E5000D9969 /* TKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E900E794158451E5000D9969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E900E7A7158451E5000D9969 /* doppelga_ngerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E900E79E158451E5000D9969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E900E777158451E5000D9969 /* doppelgänger */;
+			targetProxy = E900E79D158451E5000D9969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E900E785158451E5000D9969 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E900E786158451E5000D9969 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E900E78B158451E5000D9969 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E900E78C158451E5000D9969 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E900E791158451E5000D9969 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E900E792158451E5000D9969 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E900E7A2158451E5000D9969 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E900E7A3158451E5000D9969 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E900E7A8158451E5000D9969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E900E7A9158451E5000D9969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E900E7AB158451E5000D9969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "doppelgänger/doppelgänger-Prefix.pch";
+				INFOPLIST_FILE = "doppelgänger/doppelgänger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E900E7AC158451E5000D9969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "doppelgänger/doppelgänger-Prefix.pch";
+				INFOPLIST_FILE = "doppelgänger/doppelgänger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E900E7AE158451E5000D9969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/doppelgänger.app/Contents/MacOS/doppelgänger";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "doppelgänger/doppelgänger-Prefix.pch";
+				INFOPLIST_FILE = "doppelgängerTests/doppelgängerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E900E7AF158451E5000D9969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/doppelgänger.app/Contents/MacOS/doppelgänger";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "doppelgänger/doppelgänger-Prefix.pch";
+				INFOPLIST_FILE = "doppelgängerTests/doppelgängerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E900E772158451E5000D9969 /* Build configuration list for PBXProject "doppelgänger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E900E7A8158451E5000D9969 /* Debug */,
+				E900E7A9158451E5000D9969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E900E7AA158451E5000D9969 /* Build configuration list for PBXNativeTarget "doppelgänger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E900E7AB158451E5000D9969 /* Debug */,
+				E900E7AC158451E5000D9969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E900E7AD158451E5000D9969 /* Build configuration list for PBXNativeTarget "doppelgängerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E900E7AE158451E5000D9969 /* Debug */,
+				E900E7AF158451E5000D9969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E900E76F158451E5000D9969 /* Project object */;
+}
