@@ -1,0 +1,6 @@
+doppelgänger:
+	- create an index of files
+		filename (absolute path)
+		md5
+		size
+		last modified date
