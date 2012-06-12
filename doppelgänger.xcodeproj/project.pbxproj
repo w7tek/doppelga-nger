@@ -121,11 +121,11 @@
 			children = (
 				E900E78E158451E5000D9969 /* TKAppDelegate.h */,
 				E900E78F158451E5000D9969 /* TKAppDelegate.m */,
+				E900E7B215845A9E000D9969 /* TKBrowserDelegate.h */,
+				E900E7B315845A9E000D9969 /* TKBrowserDelegate.m */,
 				E900E791158451E5000D9969 /* MainMenu.xib */,
 				E900E783158451E5000D9969 /* Supporting Files */,
 				E900E7B0158452A4000D9969 /* doppelgänger.taskpaper */,
-				E900E7B215845A9E000D9969 /* TKBrowserDelegate.h */,
-				E900E7B315845A9E000D9969 /* TKBrowserDelegate.m */,
 			);
 			path = "doppelgänger";
 			sourceTree = "<group>";
