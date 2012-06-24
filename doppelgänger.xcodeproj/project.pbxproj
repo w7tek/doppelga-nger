@@ -19,6 +19,8 @@
 		E900E7A7158451E5000D9969 /* doppelga_ngerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E7A6158451E5000D9969 /* doppelga_ngerTests.m */; };
 		E900E7B1158452A4000D9969 /* doppelgänger.taskpaper in Resources */ = {isa = PBXBuildFile; fileRef = E900E7B0158452A4000D9969 /* doppelgänger.taskpaper */; };
 		E900E7B415845A9E000D9969 /* TKBrowserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E7B315845A9E000D9969 /* TKBrowserDelegate.m */; };
+		E94CC9001596811F00196204 /* NSMutableDictionary+TKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E94CC8FF1596811F00196204 /* NSMutableDictionary+TKExtension.m */; };
+		E978BBF215944FBD0085E120 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E978BBF115944FBD0085E120 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		E900E7B0158452A4000D9969 /* doppelgänger.taskpaper */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "doppelgänger.taskpaper"; sourceTree = SOURCE_ROOT; };
 		E900E7B215845A9E000D9969 /* TKBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBrowserDelegate.h; sourceTree = "<group>"; };
 		E900E7B315845A9E000D9969 /* TKBrowserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBrowserDelegate.m; sourceTree = "<group>"; };
+		E94CC8FE1596811F00196204 /* NSMutableDictionary+TKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TKExtension.h"; sourceTree = "<group>"; };
+		E94CC8FF1596811F00196204 /* NSMutableDictionary+TKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TKExtension.m"; sourceTree = "<group>"; };
+		E978BBF115944FBD0085E120 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E978BBF215944FBD0085E120 /* Security.framework in Frameworks */,
 				E900E77D158451E5000D9969 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +115,7 @@
 		E900E77E158451E5000D9969 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E978BBF115944FBD0085E120 /* Security.framework */,
 				E900E77F158451E5000D9969 /* AppKit.framework */,
 				E900E780158451E5000D9969 /* CoreData.framework */,
 				E900E781158451E5000D9969 /* Foundation.framework */,
@@ -119,6 +126,8 @@
 		E900E782158451E5000D9969 /* doppelgänger */ = {
 			isa = PBXGroup;
 			children = (
+				E94CC8FE1596811F00196204 /* NSMutableDictionary+TKExtension.h */,
+				E94CC8FF1596811F00196204 /* NSMutableDictionary+TKExtension.m */,
 				E900E78E158451E5000D9969 /* TKAppDelegate.h */,
 				E900E78F158451E5000D9969 /* TKAppDelegate.m */,
 				E900E7B215845A9E000D9969 /* TKBrowserDelegate.h */,
@@ -273,6 +282,7 @@
 				E900E789158451E5000D9969 /* main.m in Sources */,
 				E900E790158451E5000D9969 /* TKAppDelegate.m in Sources */,
 				E900E7B415845A9E000D9969 /* TKBrowserDelegate.m in Sources */,
+				E94CC9001596811F00196204 /* NSMutableDictionary+TKExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +456,7 @@
 				E900E7AC158451E5000D9969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E900E7AD158451E5000D9969 /* Build configuration list for PBXNativeTarget "doppelgängerTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +465,7 @@
 				E900E7AF158451E5000D9969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
